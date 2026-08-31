@@ -36,6 +36,7 @@ from nfl_analytics import loadGames
 
 games = loadGames()
 print("Games loaded:", len(games))
+```
 
 ## Example Usage
 
@@ -57,3 +58,4 @@ print(teamWinPercentage(games, "Patriots"))
 print(highestScoringGame(games))
 print(compareTeams(games, "Patriots", "Chiefs"))
 print(headToHead(games, "Patriots", "Chiefs"))
+```
